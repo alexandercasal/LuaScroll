@@ -6,6 +6,9 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.sln
+*.vcxproj
+*.vcxproj.filters
 
 # Build results
 [Dd]ebug/
@@ -15,6 +18,8 @@
 x64/
 x86/
 build/
+bin/
+external/
 bld/
 [Bb]in/
 [Oo]bj/
