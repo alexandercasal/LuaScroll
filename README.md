@@ -12,7 +12,7 @@ LuaScroll accesses variables similarly to how the Lua interpreter accesses them.
   }`
 
 In the Lua interpreter I would type: `'Window.Size.x'` to get the value 500.
-Similarly, using the LuaScroll class I can access it like so: `int windowWidth = scroll.at("Window.Size.x");`
+Similarly, using the LuaScroll class I can access it like so: `int windowWidth = scroll.at<int>("Window.Size.x");`
 
 #Dependencies
 LuaScroll uses Lua 5.3.1 (http://www.lua.org/).
